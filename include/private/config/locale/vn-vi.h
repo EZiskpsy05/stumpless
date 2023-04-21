@@ -20,68 +20,68 @@
  * United States English localization strings.
  */
 
-#ifndef __STUMPLESS_PRIVATE_CONFIG_LOCALE_EN_US_H
-#  define __STUMPLESS_PRIVATE_CONFIG_LOCALE_EN_US_H
+#ifndef __STUMPLESS_PRIVATE_CONFIG_LOCALE_VN_VI_H
+#  define __STUMPLESS_PRIVATE_CONFIG_LOCALE_VN_VI_H
 
 #  define L10N_BIND_UNIX_SOCKET_FAILED_ERROR_MESSAGE \
-"could not bind to the local unix socket"
+"không thể gắn kết với socket unix cục bộ"
 
 #  define L10N_BUFFER_TOO_SMALL_ERROR_MESSAGE \
-"buffer is too small for the given message"
+"bộ đệm quá nhỏ cho thông báo được cung cấp"
 
 #  define L10N_CLOSE_UNSUPPORTED_TARGET_ERROR_MESSAGE \
-"attempted to close an unsupported target type"
+"đã cố gắng đóng một loại mục tiêu không được hỗ trợ"
 
 #  define L10N_COMMIT_TRANSACTION_FAILED_ERROR_MESSAGE \
-"CommitTransaction failed"
+"CommitTransaction thất bại"
 
 #  define L10N_CONNECT_SYS_SOCKET_FAILED_ERROR_MESSAGE \
-"connect failed with a sys/socket.h socket"
+"kết nối không thành công với socket sys/socket.h"
 
 #  define L10N_CONNECT_WIN_SOCKET_FAILED_ERROR_MESSAGE \
-"connect failed with a winsock2 socket"
+"kết nối không thành công với socket winsock2"
 
 #  define L10N_CREATE_TRANSACTION_FAILED_ERROR_MESSAGE \
-"CreateTransaction failed"
+"Tạo Transaction thất bại"
 
 #  define L10N_DESTINATION_NETWORK_ONLY_ERROR_MESSAGE \
-"destination is only valid for network targets"
+"điểm đến chỉ hợp lệ cho các mục tiêu mạng"
 
 #  define L10N_DUPLICATE_ELEMENT_ERROR_MESSAGE \
-"an element with the provided name is already present in this entry"
+"một phần tử có tên được cung cấp đã có trong mục này"
 
 #  define L10N_ELEMENT_NOT_FOUND_ERROR_MESSAGE \
-"an element with the specified characteristics could not be found"
+"không thể tìm thấy một phần tử với các đặc điểm cụ thể đã được chỉ định"
 
 #  define L10N_ERRNO_ERROR_CODE_TYPE \
-"errno after the failed call"
+"errno sau khi gọi không thành công"
 
 #  define L10N_FILE_OPEN_FAILURE_ERROR_MESSAGE \
-"could not open the specified file"
+"không thể mở tệp được chỉ định"
 
 #  define L10N_FILE_WRITE_FAILURE_ERROR_MESSAGE \
-"could not write to the file"
+"không thể mở tệp được chỉ định"
 
 #  define L10N_FORMAT_ERROR_MESSAGE(ARG) \
-"invalid " ARG " format"
+"định dạng " ARG " không hợp lệ"
 
 #  define L10N_FUNCTION_TARGET_FAILURE_CODE_TYPE \
-"return code of the log handler function"
+"mã trả về của hàm xử lý nhật ký"
 
 #  define L10N_FUNCTION_TARGET_FAILURE_ERROR_MESSAGE \
-"the log handler for a function target failed"
+"bộ xử lý nhật ký cho một mục tiêu hàm đã thất bại"
 
 #  define L10N_GETADDRINFO_FAILURE_ERROR_MESSAGE \
-"getaddrinfo failed on the provided hostname"
+"getaddrinfo không thành công trên tên máy chủ được cung cấp"
 
 #  define L10N_GETADDRINFO_RETURN_ERROR_CODE_TYPE \
-"return code of the failed getaddrinfo call"
+"mã trả về của cuộc gọi getaddrinfo không thành công"
 
 #  define L10N_GETCOMPUTERNAME_FAILED_ERROR_MESSAGE \
-"GetComputerName failed"
+"GetComputerName không thành công"
 
 #  define L10N_GETHOSTNAME_FAILED_ERROR_MESSAGE \
-"gethostname failed"
+"gethostname không thành công"
 
 #  define L10N_GETLASTERROR_ERROR_CODE_TYPE \
 "the result of GetLastError after the failed call"
